@@ -1,0 +1,37 @@
+.product-details {
+  display: flex;
+  justify-content: center;
+}
+.product-preview {
+  min-width: 200px;
+  z-index: 999;
+  position: relative;
+}
+.product-info {
+  margin-left: 40px;
+}
+.buttons a {
+  display: inline-block;
+  text-decoration: none;
+  border: 2px solid;
+  border-radius: 8px;
+  font-weight: bold;
+  margin: 8px 8px 0 0;
+  padding: 8px;
+}
+.buttons a.back {
+  border-color: #00a1ff;
+  color: #00a1ff;
+}
+.buttons a.back:hover {
+  color: #fff;
+  background-color: #00a1ff;
+}
+.buttons a.purchase {
+  border-color: #ffb100;
+  color: #ffb100;
+}
+.buttons a.purchase:hover {
+  color: #fff;
+  background-color: #ffb100;
+}

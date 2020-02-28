@@ -1,0 +1,122 @@
+em {
+  background: cyan;
+  font-style: normal;
+}
+h1 {
+  color: black;
+}
+.header {
+  display: flex;
+  align-items: center;
+  min-height: 50px;
+  padding: 0.5rem 1rem;
+  background-image: linear-gradient(to right, #ffc100, whitesmoke);
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.header a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.header-title {
+  margin: 0 auto;
+  font-size: 50px;
+
+  text-decoration: none;
+  font-weight: 800;
+  position: relative;
+
+  font-size: 92px;
+  padding: 80px 50px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+}
+.header-title.retroshadow {
+  color: #2c2c2c;
+  letter-spacing: 0.05em;
+  text-shadow: 4px 4px 0px #fff, 7px 7px 0px rgba(0, 0, 0, 0.2);
+}
+
+.header-subtitle {
+  font-size: 1.2rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.search-panel {
+  display: flex;
+}
+
+.search-panel__filters {
+  float: left;
+  margin-left: 0px;
+  flex: 0.5;
+}
+.right-panel {
+  float: right;
+  margin-left: 2px;
+}
+
+.search-panel__results {
+  flex: 3;
+}
+
+.searchbox {
+  margin-bottom: 2rem;
+}
+
+.pagination {
+  margin: 2rem auto;
+  text-align: center;
+}
+.hit {
+  float: left;
+  padding: 10px 20px 20px;
+  margin: 0.5%;
+  position: relative;
+}
+.hit h1 {
+  color: black;
+}
+.hit p {
+  color: grey;
+}
+.hit .product-picture-wrapper {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.hit .product-picture {
+  display: table-cell;
+  vertical-align: middle;
+  margin: auto;
+}
+
+.hit .product-picture img {
+  -webkit-transition: opacity 500ms cubic-bezier(0.19, 1, 0.22, 1);
+  transition: opacity 500ms cubic-bezier(0.19, 1, 0.22, 1);
+  height: 170px;
+  max-width: 460%;
+}
+h5 {
+  color: lightgrey;
+}
+
+.ais-Hits-item {
+  border-radius: 3px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.ais-Hits-item:hover {
+  box-shadow: 0 1px 4px #ffc100, 0 0 40px rgba(0, 0, 0, 0.05) inset;
+}
